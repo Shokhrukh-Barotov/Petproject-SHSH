@@ -2,11 +2,30 @@ body{
     font-family: sans-serif;
 }
 
+.container{
+    width: 1440px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+
 .header{
-    background-color: aliceblue;
+    display: inline-block;
+    width: 100%;
+    background-color: aquamarine;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.navbar__brand{
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
 }
 
 .navbar__item{
     display: inline-block;
     list-style: none;
+    padding: 10px;
+    margin: 10px;
 }
