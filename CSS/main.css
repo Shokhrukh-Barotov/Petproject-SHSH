@@ -1,0 +1,12 @@
+body{
+    font-family: sans-serif;
+}
+
+.header{
+    background-color: aliceblue;
+}
+
+.navbar__item{
+    display: inline-block;
+    list-style: none;
+}
