@@ -3,10 +3,9 @@ body{
 }
 
 .container{
-    width: 1440px;
+    width: auto;
     margin-left: 10px;
     margin-right: 10px;
-    text-align: center;
 }
 
 .header{
@@ -15,12 +14,14 @@ body{
     background-color: aquamarine;
     margin-top: 10px;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .navbar__brand{
     display: inline-block;
     padding: 10px;
     margin: 10px;
+    box-sizing: border-box;
 }
 
 .navbar__item{
@@ -28,4 +29,6 @@ body{
     list-style: none;
     padding: 10px;
     margin: 10px;
+    text-transform: uppercase;
+    box-sizing: border-box;
 }
